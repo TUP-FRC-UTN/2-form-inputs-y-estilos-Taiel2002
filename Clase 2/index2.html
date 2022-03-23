@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <style>
+        h1{
+            margin-bottom: -1%;
+        }
+
+        p {
+            color: rgb(91 91 91);
+        }
+    </style>
+    <title>Ejercicio</title>
+</head>
+<body>
+    <h1>Datos de mascota:</h1>
+    <p>Complete el siguiente formulario para registrar a su mascota.</p>
+
+    <form action="/" method="post">
+        Nombre: <br />
+        <input type="text" placeholder="Ingrese el nombre" /> <br />
+        <br />
+
+        Genero: <br />
+        <input type="radio" name="genero" id="genero" value="1" /> Macho <br />
+        <input type="radio" name="genero" id="genero" value="2" /> Hembra <br />
+        <br />
+
+        Tipo de mascota: <br />
+        <select name="raza" id="raza">
+            <option value="">Seleccione...</option>
+            <option value="1">Perro</option>
+            <option value="2">Gato</option>
+            <option value="3">Otro tipo de mascota</option>
+        </select> <br />
+                  <br />
+
+        Fecha de adopcion: <br />
+        <input type="date" name="fecha-adop" id="fecha-adop" max="2022-03-23" /> <br />
+                                                                                 <br />
+        Descripcion Breve: <br />
+        <textarea name="descripcion" placeholder="Describa brevemente a su mascota" rows="20" cols="30"></textarea> <br />
+                                                                                                     <br />
+
+        <button type="submit">Guardar</button>
+        <button type="reset">Restablecer</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿*
+{
+    background-color: white;
+}
+
+h1 {
+    font-family: Courier New, Courier, monospace
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fuente-coloreada {
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+}
+
+#fuente-negrita {
+    font-weight: 900;
+}
